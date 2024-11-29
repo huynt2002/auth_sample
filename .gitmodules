@@ -1,0 +1,3 @@
+[submodule "auth-kit-aos"]
+	path = auth-kit-aos
+	url = https://github.com/justmakeapp/auth-kit-aos.git
