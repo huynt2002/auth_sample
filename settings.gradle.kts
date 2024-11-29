@@ -21,5 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "auth_sample"
 include(":app")
-include(":auth-kit-aos:auth_kit")
-include(":auth-kit-aos:auth_kit_ui")
