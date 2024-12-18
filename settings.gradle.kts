@@ -11,6 +11,7 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -20,6 +21,11 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "auth_sample"
+
 include(":app")
+
 include(":auth-kit-aos:auth_kit")
+
 include(":auth-kit-aos:auth_kit_ui")
+
+include(":auth-kit-aos:firebase_auth")
